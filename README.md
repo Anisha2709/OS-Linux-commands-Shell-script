@@ -765,6 +765,8 @@ $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ### OUTPUT
 
+<img width="490" height="94" alt="image" src="https://github.com/user-attachments/assets/f0473deb-080c-4c73-b580-4f676e3728d5" />
+
 # using the case command
 cat >casecheck.sh 
 ```bash
@@ -781,11 +783,13 @@ echo "Sorry, you are not allowed here";;
 esac
 ```
 $ chmod 755 casecheck.sh 
- 
 $ ./casecheck.sh 
- 
+### OUTPUT
+
+<img width="427" height="150" alt="image" src="https://github.com/user-attachments/assets/b8c6527e-ffe5-4b58-bab3-ce18785208be" />
+
 cat > whiletest
-```bash
+```bacd
 #!/bin/bash
 #while command test
 var1=10
@@ -798,9 +802,13 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
+
+### OUTPUT
+
+<img width="482" height="407" alt="image" src="https://github.com/user-attachments/assets/f6cb99ff-bc51-4c43-ab0c-2677beedcadf" />
+
  
- 
-cat untiltest.sh 
+cat > untiltest.sh 
 ```bash
 \#using the until command
 var1=100
@@ -812,7 +820,9 @@ done
 ``` 
 $ chmod 755 untiltest.sh
  
- 
+$ ./untiltest.sh
+
+### OUTPUT
  
 cat forin1.sh 
 ```bash
@@ -825,7 +835,9 @@ done
  ```
  
 $ chmod 755 forin1.sh
- 
+$ ./forin1.sh
+
+### OUTPUT
  
 cat forin2.sh 
 ```bash
@@ -851,6 +863,8 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
+
+### OUPUT
  
 cat forin3.sh 
 ```bash
@@ -873,8 +887,11 @@ echo The next state is $test
 done
 ```
 $ chmod 755 forin1.sh
+$ ./forin1.sh
 
 ### OUTPUT
+
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -886,7 +903,8 @@ echo "Visit beautiful $file“
 done
 ```
 $ chmod 777 forinfile.sh
-$ cat cities
+$ cat > cities
+```
 Hyderabad
 Alampur
 Basara
@@ -894,11 +912,11 @@ Warangal
 Adilabad
 Bhadrachalam
 Khammam
-
+```
 ### OUTPUT
 
 
-cat forctype.sh 
+cat > forctype.sh 
 ```bash
 #!/bin/bash
 # testing the C-style for loop
@@ -909,6 +927,7 @@ done
 ````
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
+
 ### OUTPUT
 
 cat forctype1.sh 
@@ -922,6 +941,7 @@ done
 ```
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
+
 ### OUTPUT
 
 cat fornested1.sh 
@@ -937,13 +957,15 @@ echo " Inside loop: $b"
 done
 done
 ```
+
 $ chmod 755 fornested1.sh
- 
+
 $ ./fornested1.sh 
- ### OUTPUT
+
+### OUTPUT
 
  
-cat forbreak.sh 
+cat > forbreak.sh 
 ```bash
 #!/bin/bash
 # breaking out of a for loop
@@ -957,13 +979,14 @@ echo "Iteration number: $var1"
 done
 echo "The for loop is completed“
 ```
-### OUTPUT
 
 $ chmod 755 forbreak.sh
- 
 $ ./forbreak.sh 
+
+### OUTPUT
+
  
-cat forbreak.sh 
+cat > forbreak.sh 
 ```bash
 #!/bin/bash
 # breaking out of a for loop
@@ -980,8 +1003,9 @@ echo "The for loop is completed“
 
  
 $ chmod 755 forcontinue.sh
- 
+
 $ ./forcontinue.sh 
+
 ### OUTPUT
  
 cat exread.sh 
@@ -996,6 +1020,7 @@ echo "Hello $name, welcome to my program. "
 $ chmod 755 exread.sh 
  
 $ ./exread.sh 
+
 ### OUTPUT
 
 
