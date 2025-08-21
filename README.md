@@ -430,7 +430,7 @@ gzip backup.tar
 ls .gz
 ## OUTPUT
  
-##gunzip backup.tar.gz
+## gunzip backup.tar.gz
 ### OUTPUT
 
  
