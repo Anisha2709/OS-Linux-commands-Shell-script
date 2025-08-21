@@ -1,4 +1,4 @@
-<img width="528" height="85" alt="image" src="https://github.com/user-attachments/assets/67348843-5200-4085-9218-c7209a12a193" /># OS-Linux-commands-Shell-scripting
+<img width="935" height="37" alt="image" src="https://github.com/user-attachments/assets/ff407da2-6bb3-46c3-953a-c377632b0856" /><img width="528" height="85" alt="image" src="https://github.com/user-attachments/assets/67348843-5200-4085-9218-c7209a12a193" /># OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
@@ -426,14 +426,6 @@ tar -xvf backup.tar
 
 <img width="467" height="306" alt="image" src="https://github.com/user-attachments/assets/fca6ce83-6586-4d1a-b3a3-12a27ee8902c" />
 
-gzip backup.tar
-
-ls .gz
-### OUTPUT
- 
-## gunzip backup.tar.gz
-#### OUTPUT
-
  
 # Shell Script
 ```
@@ -443,6 +435,8 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ### OUTPUT
+
+<img width="367" height="140" alt="image" src="https://github.com/user-attachments/assets/54ee28bd-9b61-439f-bd18-f4617eff83d2" />
 
  
 cat << stop > herecheck.txt
@@ -457,6 +451,7 @@ cat herecheck.txt
 ### OUTPUT
 
 
+
 cat < scriptest.sh 
 ```bash
 \#!/bin/sh
@@ -469,6 +464,7 @@ echo “Fourth arg. is ” $4
 echo 'The $@ is ' $@
 echo 'The $\# is ' $1#
 echo 'The $$ is ' $$
+
 ps
 ^d
  ```
@@ -494,30 +490,25 @@ chmod 777 scriptest.sh
 
 ### OUTPUT
 
- 
+ <img width="264" height="70" alt="image" src="https://github.com/user-attachments/assets/3fb3b506-9290-45c2-ac90-d106bd685ebb" />
+
 ls file1
 ### OUTPUT
 
-echo $?
-### OUTPUT 
-./one
-bash: ./one: Permission denied
- 
-echo $?
-### OUTPUT 
- 
-abcd
- 
-echo $?
- ### OUTPUT
+<img width="258" height="92" alt="image" src="https://github.com/user-attachments/assets/fa370977-a6a5-4e81-91b6-e7e4e1203724" />
 
+
+echo $?
+### OUTPUT 
+
+<img width="323" height="93" alt="image" src="https://github.com/user-attachments/assets/3779e140-8c05-4957-9602-0ab3ee588bef" />
 
  
 # mis-using string comparisons
 
-cat < strcomp.sh 
+cat > strcomp.sh 
 ```bash
-\#!/bin/bash
+#!/bin/bash
 val1=baseball
 val2=hockey
 if [ $val1 \> $val2 ]
@@ -531,7 +522,7 @@ fi
 
 cat strcomp.sh 
 ```bash
-\#!/bin/bash
+#!/bin/bash
 val1=baseball
 val2=hockey
 if [ $val1 \> $val2 ]
@@ -541,8 +532,9 @@ else
 echo "$val1 is less than $val2"
 fi
 ```
-##OUTPUT
+### OUTPUT
 
+<img width="425" height="290" alt="image" src="https://github.com/user-attachments/assets/bdf97815-4cdb-46a9-939f-b3b2616a48ab" />
 
 
 chmod 755 strcomp.sh
@@ -550,11 +542,13 @@ chmod 755 strcomp.sh
 ./strcomp.sh 
 ### OUTPUT
 
+<img width="393" height="101" alt="image" src="https://github.com/user-attachments/assets/870c31d3-7dfc-4ec1-b51a-93650b939c1d" />
+
 
 # check file ownership
-cat < psswdperm.sh 
+cat > psswdperm.sh 
 ```bash
-\#!/bin/bash
+#!/bin/bash
 if [ -O /etc/passwd ]
 then
 echo “You are the owner of the /etc/passwd file”
@@ -566,7 +560,7 @@ fi
 
 cat psswdperm.sh 
 ```bash
-/#!/bin/bash
+#!/bin/bash
 if [ -O /etc/passwd ]
 then
 echo “You are the owner of the /etc/passwd file”
@@ -577,10 +571,12 @@ fi
 ./psswdperm.sh
 ### OUTPUT
 
+<img width="637" height="175" alt="image" src="https://github.com/user-attachments/assets/015ff9de-cc7d-43e9-80f6-ca7edcce51d7" />
+
 # check if with file location
 cat>ifnested.sh 
 ```bash
-\#!/bin/bash
+#!/bin/bash
 if [ -e $HOME ]
 then
 echo “$HOME The object exists, is it a file?”
@@ -601,7 +597,7 @@ fi
 ```
 cat ifnested.sh 
 ```
-\#!/bin/bash
+#!/bin/bash
 if [ -e $HOME ]
 then
 echo “$HOME The object exists, is it a file?”
@@ -623,12 +619,14 @@ fi
 ./ifnested.sh 
 ### OUTPUT
 
+<img width="566" height="236" alt="image" src="https://github.com/user-attachments/assets/a36e522e-ea41-4da2-a2c1-b6d2f5881c2e" />
+
 
 
 # using numeric test comparisons
 cat > iftest.sh 
 ```bash
-\#!/bin/bash
+#!/bin/bash
 val1=10
 val2=11
 if [ $val1 -gt 5 ]
@@ -647,7 +645,7 @@ fi
 
 cat iftest.sh 
 ```bash
-\#!/bin/bash
+#!/bin/bash
 val1=10
 val2=11
 if [ $val1 -gt 5 ]
@@ -667,10 +665,13 @@ $ chmod 755 iftest.sh
 $ ./iftest.sh 
 ##OUTPUT
 
+<img width="421" height="197" alt="image" src="https://github.com/user-attachments/assets/c533712e-4046-42e8-bf66-2d150a61f0ae" />
+
+
 # check if a file
 cat > ifnested.sh 
 ```bash
-\#!/bin/bash
+#!/bin/bash
 if [ -e $HOME ]
 then
 echo “$HOME The object exists, is it a file?”
@@ -692,7 +693,7 @@ fi
 
 cat ifnested.sh 
 ```bash
-\#!/bin/bash
+#!/bin/bash
 if [ -e $HOME ]
 then
 echo “$HOME The object exists, is it a file?”
@@ -716,10 +717,13 @@ $ chmod 755 ifnested.sh
 $ ./ifnested.sh 
 ##OUTPUT
 
+<img width="503" height="154" alt="image" src="https://github.com/user-attachments/assets/bb5e8c25-4058-4752-8d6e-dbd8495632ca" />
+
+
 # looking for a possible value using elif
-cat elifcheck.sh 
+cat > elifcheck.sh 
 ```bash
-\#!/bin/bash
+#!/bin/bash
 if [ $USER = Ram ]
 then
 echo "Welcome $USER"
@@ -744,11 +748,12 @@ $ chmod 755 elifcheck.sh
 $ ./elifcheck.sh 
 ### OUTPUT
 
+<img width="413" height="176" alt="image" src="https://github.com/user-attachments/assets/13b4b356-2c69-4478-8257-748e2784e90e" />
 
 # testing compound comparisons
 cat> ifcompound.sh 
 ```bash
-\#!/bin/bash
+#!/bin/bash
 if [ -d $HOME ] && [ -w $HOME ]
 then
 echo "The file exists and you can write to it"
@@ -811,7 +816,7 @@ $ chmod 755 untiltest.sh
  
 cat forin1.sh 
 ```bash
-\#!/bin/bash
+#!/bin/bash
 \#basic for command
 for test in Alabama Alaska Arizona Arkansas California Colorado
 do
@@ -824,7 +829,7 @@ $ chmod 755 forin1.sh
  
 cat forin2.sh 
 ```bash
-\#!/bin/bash
+#!/bin/bash
 \# another example of how not to use the for command
 for test in I don't know if this'll work
 do
@@ -836,7 +841,7 @@ $ chmod 755 forin2.sh
  
 cat forin2.sh 
 ```bash
-\#!/bin/bash
+#!/bin/bash
 \# another example of how not to use the for command
 for test in I don't know if this'll work
 do
@@ -849,7 +854,7 @@ $ ./forin2.sh
  
 cat forin3.sh 
 ```bash
-\#!/bin/bash
+#!/bin/bash
 \# another example of how not to use the for command
 for test in I don\'t know if "this'll" work
 do
