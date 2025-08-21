@@ -225,19 +225,25 @@ egrep '[1-9]' newfile
 egrep 'Linux.*world' newfile 
 ## OUTPUT
 
+<img width="378" height="88" alt="image" src="https://github.com/user-attachments/assets/59779825-d055-47c5-a1c6-e6ab6057aeab" />
+
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
+
+<img width="412" height="89" alt="image" src="https://github.com/user-attachments/assets/e6e60b90-01e0-41b0-9601-5b7a23c25592" />
 
 
 egrep l{2} newfile
 ## OUTPUT
 
+<img width="334" height="108" alt="image" src="https://github.com/user-attachments/assets/f888fca0-26a4-48cc-9b94-a328efb4a1dd" />
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
 
+<img width="371" height="137" alt="image" src="https://github.com/user-attachments/assets/0ef9f096-ad81-4bda-9edf-f4a5115acf27" />
 
 cat > file23
 ```
