@@ -357,6 +357,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
+<img width="392" height="385" alt="image" src="https://github.com/user-attachments/assets/92f97bd0-28d8-4bbf-bcb7-82ad00522063" />
 
 
 cat > file22
@@ -371,6 +372,7 @@ cat > file22
 uniq file22
 ## OUTPUT
 
+<img width="439" height="398" alt="image" src="https://github.com/user-attachments/assets/c7148932-9635-4738-a7ed-5abb415bf14e" />
 
 
 #Using tr command
@@ -378,33 +380,34 @@ uniq file22
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
 
-cat < urllist.txt
+<img width="466" height="299" alt="image" src="https://github.com/user-attachments/assets/e2f15477-0ddc-402b-adef-afd2438a78c2" />
+
+cat > urllist.txt
 ```
 www. yahoo. com
 www. google. com
 www. mrcet.... com
 ^d
  ```
-cat > urllist.txt
-```
-www. yahoo. com
-www. google. com
-www. mrcet.... com
- ```
+cat < urllist.txt
+
+<img width="426" height="289" alt="image" src="https://github.com/user-attachments/assets/95546bfe-9b19-4e06-9c40-22613bf16422" />
+
 cat urllist.txt | tr -d ' '
  ## OUTPUT
 
-
+<img width="448" height="140" alt="image" src="https://github.com/user-attachments/assets/28bcd1b2-ccc6-45e0-9359-c8bf4b759ec5" />
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
 
-
+<img width="560" height="162" alt="image" src="https://github.com/user-attachments/assets/8bc5a719-f5c8-4059-985a-dcf3bae2f2a9" />
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
 
+<img width="398" height="324" alt="image" src="https://github.com/user-attachments/assets/68173aa9-cfc5-45e7-8bfc-4aa56ca7664f" />
 
 mkdir backupdir
  
@@ -415,17 +418,20 @@ cd backupdir
 tar -tvf backup.tar
 ## OUTPUT
 
+<img width="593" height="323" alt="image" src="https://github.com/user-attachments/assets/5b9e2878-f133-4b69-bdf6-00e8e71bd195" />
 
 tar -xvf backup.tar
 ## OUTPUT
+
+<img width="467" height="306" alt="image" src="https://github.com/user-attachments/assets/fca6ce83-6586-4d1a-b3a3-12a27ee8902c" />
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
  
-gunzip backup.tar.gz
-## OUTPUT
+##gunzip backup.tar.gz
+### OUTPUT
 
  
 # Shell Script
