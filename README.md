@@ -43,22 +43,30 @@ s.n. dasgupta
 cat < file1
 ## OUTPUT
 
+<img width="331" height="152" alt="image" src="https://github.com/user-attachments/assets/6c3e196f-d165-408b-ba81-65642fc5e06e" />
 
 
 cat < file2
 ## OUTPUT
 
+<img width="382" height="181" alt="image" src="https://github.com/user-attachments/assets/cf80ee15-829a-4aaa-adb3-3f9153ca64d4" />
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
-comm file1 file2
+
+<img width="407" height="85" alt="image" src="https://github.com/user-attachments/assets/3010859e-eb54-4afc-b93f-058c13c81f6b" />
+
+ comm file1 file2
  ## OUTPUT
 
- 
+<img width="498" height="310" alt="image" src="https://github.com/user-attachments/assets/4110bbb8-bd17-484e-911d-7536d1cf16b2" />
+
+
 diff file1 file2
 ## OUTPUT
+
+<img width="459" height="311" alt="image" src="https://github.com/user-attachments/assets/e9410780-fa56-4296-8473-810619f5a4df" />
 
 
 #Filters
