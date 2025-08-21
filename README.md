@@ -147,10 +147,16 @@ cat newfile | grep -i -c "hello"
 grep -R ubuntu /etc
 ## OUTPUT
 
+<img width="1443" height="754" alt="image" src="https://github.com/user-attachments/assets/3bccd7c7-0eea-4aed-a318-0ac38a28d2a0" />
+<img width="1409" height="763" alt="image" src="https://github.com/user-attachments/assets/f929e7d7-5626-4d88-97eb-1b2652e5e0c1" />
+<img width="1420" height="722" alt="image" src="https://github.com/user-attachments/assets/23794224-fe5e-4b37-a762-6c099fac22b6" />
+<img width="410" height="123" alt="image" src="https://github.com/user-attachments/assets/301f4791-dae5-4fb4-bf80-4d3d1ee2bdc6" />
 
 
 grep -w -n world newfile   
 ## OUTPUT
+
+<img width="1384" height="727" alt="image" src="https://github.com/user-attachments/assets/02d0ec0e-7492-46a6-b604-0e988a48e464" />
 
 
 cat < newfile 
@@ -164,52 +170,56 @@ Linux is best in this World
 ```
 
 cat > newfile
-```
-Hello world
-hello world
-Linux is world number 1
-Unix is predecessor
-Linux is best in this World
-^d
- ```
+
+<img width="346" height="200" alt="image" src="https://github.com/user-attachments/assets/a627f67f-52b2-4814-9252-f242d063e403" />
+
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
 
+<img width="420" height="111" alt="image" src="https://github.com/user-attachments/assets/6cf4c583-a149-493f-864f-47c18139f85d" />
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
 
+<img width="408" height="96" alt="image" src="https://github.com/user-attachments/assets/dbc014b3-0657-4faa-94de-98c46d8e47c8" />
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
 
+<img width="425" height="110" alt="image" src="https://github.com/user-attachments/assets/0e4ee143-2a62-42a8-97ae-ce8f1ab5f98b" />
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
 
+<img width="390" height="89" alt="image" src="https://github.com/user-attachments/assets/ffc892ce-df31-4560-a7a9-c085fa54c2eb" />
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
 
+<img width="395" height="137" alt="image" src="https://github.com/user-attachments/assets/b3b5f5e2-1f93-4074-b809-428a843a96fe" />
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
 
+<img width="397" height="88" alt="image" src="https://github.com/user-attachments/assets/95f7df9c-b62b-4abc-b485-a3f01f55149b" />
+
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
 
+<img width="439" height="139" alt="image" src="https://github.com/user-attachments/assets/2690a2fe-834d-46bd-83dc-f31181ae8ef3" />
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
 
+<img width="407" height="90" alt="image" src="https://github.com/user-attachments/assets/12eefc6b-8688-40aa-8d04-fdbe9f2d884b" />
 
 
 egrep 'Linux.*world' newfile 
