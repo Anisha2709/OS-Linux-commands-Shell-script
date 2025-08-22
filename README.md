@@ -1167,7 +1167,7 @@ ubcdfghj
 awk -f nc.awk data.dat
 ### OUTPUT 
 
-![Uploading image.png…]()
+<img width="558" height="421" alt="image" src="https://github.com/user-attachments/assets/dd0a9fd9-43a2-4fc9-9fb1-d544550d7c69" />
 
 cat > palindrome.sh
 ```bash
@@ -1199,7 +1199,8 @@ $ ./palindrome.sh
 
 ### OUTPUT 
 
-![Uploading image.png…]()
+<img width="592" height="334" alt="image" src="https://github.com/user-attachments/assets/7cc8aa28-2a62-44c1-a577-7a8e0ab15ec2" />
+
 
 # RESULT:
 The Commands are executed successfully.
